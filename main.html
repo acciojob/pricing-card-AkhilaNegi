@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff6600;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="card">
+        <h2>Pricing</h2>
+        <p>Choose a plan that suits your needs</p>
+        <div class="price">$19.99/mo</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#" class="btn">Sign up</a>
+    </div>
 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
